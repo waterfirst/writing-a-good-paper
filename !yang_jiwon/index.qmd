@@ -1,0 +1,83 @@
+---
+title: "농약 잔류물 처리 기술 연구"
+author:  "양지원"
+date: 02/10/2024
+date-format: long
+format : html
+editor: visual
+---
+
+제목: 농업 환경에서 미세 플라스틱 및 농약 잔류물의 흡착 거동 및 독성 효과 조사
+
+초록 :  이 논문에서는 농업 환경에서 미세플라스틱과 농약 잔류물의 흡착 거동과 독성 영향을 탐구합니다. 이 연구에서는 이러한 오염 물질의 영향을 완화하기 위해 다양한 처리 기술을 조사하여 지속 가능한 농업 관행과 환경 보존에 대한 통찰력을 제공합니다.
+
+1.  소개: 전통적인 농화학 연구와 달리, 이 연구는 농업 환경에서 미세플라스틱과 농약 잔류물의 역학에 중점을 둡니다. 이러한 오염 물질을 줄이고 제거하기 위한 운명, 독성 및 처리 기술을 이해하는 데 중점을 둡니다. 이 연구는 농업 관행이 환경에 미치는 영향을 포괄적으로 이해하는 데 도움이 됩니다.
+
+2.  방법: 연구 방법론에는 미세 플라스틱, 농약 잔류물 및 농업 환경에서의 흡착 거동에 관한 기존 문헌에 대한 광범위한 검토가 포함됩니다. 실험실 실험에서는 분광학 및 크로마토그래피를 포함한 고급 분석 기술을 사용하여 오염 물질 수준을 정량화합니다. 흡착 연구는 처리 기술의 효율성을 평가하여 잠재적 응용 분야에 대한 귀중한 데이터를 제공하기 위해 수행됩니다.
+
+3. 실험 및 결과: 실험 단계에는 미세플라스틱과 농약 잔류물의 존재에 초점을 맞춰 다양한 농업 현장에서 토양과 물 샘플을 수집하는 것이 포함됩니다. 엄격한 분석을 통해 이러한 오염물질의 흡착 거동과 독성 효과를 평가합니다. 그 효과를 확인하기 위해 흡착 공정, 여과 방법 등 다양한 처리 기술이 적용됩니다. 결과는 각 기술의 성공과 한계를 밝히고 농업 환경에서의 실제 적용을 안내합니다.
+
+4.  논의: 토론 섹션에서는 실험 결과를 해석하여 농업 관행과 환경 지속 가능성에 대한 의미를 다룹니다. 가공 기술에 대한 비교 분석이 제시되어 미세플라스틱 및 농약 잔류물을 흡착하는 효능을 강조합니다. 독성 효과를 완화하는 데 있어 흡착 거동의 역할을 탐구하여 오염 물질과 환경 사이의 복잡한 상호 작용에 대한 통찰력을 제공합니다. 이 섹션은 향후 연구 방향과 보다 효율적인 처리 기술 개발을 위한 기반이 됩니다.
+
+5.  결론: 결론적으로, 이 연구는 농업 환경에서 미세플라스틱과 농약 잔류물이 미치는 영향을 이해하고 완화하는 것이 중요하다는 점을 강조합니다. 이번 연구 결과는 지속 가능한 관행을 채택하려는 정책 입안자, 연구자 및 농업 실무자에게 귀중한 통찰력을 제공합니다. 향후 연구에서는 이러한 오염물질의 구체적인 흡착 메커니즘과 장기적인 영향을 더 깊이 조사하여 농업 환경 관리 분야의 지식을 발전시켜야 합니다.
+
+- - -
+
+Title: Investigating Adsorption Behavior and Toxic Effects of Microplastics and Pesticide Residues in Agricultural Environments
+
+Abstract: This paper explores the adsorption behavior and toxic effects of microplastics and pesticide residues in the agricultural environment. The study investigates various processing technologies to mitigate the impact of these pollutants, providing insights into sustainable agricultural practices and environmental conservation.
+
+1. Introduction: In contrast to traditional agricultural chemistry research, this study focuses on the dynamics of microplastics and pesticide residues in the agricultural environment. Emphasis is placed on understanding the fate, toxicity, and processing technologies aimed at reducing and removing these pollutants. The research contributes to a comprehensive understanding of the environmental implications of agricultural practices.
+
+2. Method: The research methodology involves an extensive review of existing literature on microplastics, pesticide residues, and their adsorption behavior in agricultural settings. Laboratory experiments employ advanced analytical techniques, including spectroscopy and chromatography, to quantify pollutant levels. Adsorption studies are conducted to assess the efficiency of processing technologies, providing valuable data on their potential applications.
+
+3. Experimentals and Results: The experimental phase includes the collection of soil and water samples from diverse agricultural sites, focusing on the presence of microplastics and pesticide residues. Rigorous analysis evaluates the adsorption behavior of these pollutants and their toxic effects. Various processing technologies, such as adsorption processes and filtration methods, are applied to determine their effectiveness. Results elucidate the success and limitations of each technology, guiding practical applications in agricultural settings.
+
+4. Discussion: The discussion section interprets experimental findings, addressing the implications for agricultural practices and environmental sustainability. Comparative analysis of processing technologies is presented, highlighting their efficacy in adsorbing microplastics and pesticide residues. The role of adsorption behavior in mitigating toxic effects is explored, providing insights into the complex interactions between pollutants and the environment. This section serves as a foundation for future research directions and the development of more efficient processing technologies.
+
+5. Conclusion: In conclusion, this study underscores the importance of understanding and mitigating the impact of microplastics and pesticide residues in agricultural environments. The findings contribute valuable insights for policymakers, researchers, and agricultural practitioners seeking to adopt sustainable practices. Future research should delve deeper into the specific adsorption mechanisms of these pollutants and their long-term effects, advancing our knowledge in the field of agricultural environmental management.
+
+- - -
+
+[지도교수 : 조은혜 교수](https://pubmed.ncbi.nlm.nih.gov/?term=Eun+Hea+Jho&sort=pubdate&size=20)
+
+
+
+
+## 조은혜 교수님 SCI 논문 리스트
+
+[리스트 url](https://pubmed.ncbi.nlm.nih.gov/?term=Eun+Hea+Jho&sort=pubdate&size=20)
+
+
+[최신 논문1](https://pubmed.ncbi.nlm.nih.gov/33113057/)  
+
+농업용 농약 제제 연구 : Pesticide Formulations 
+
+
+[최신 논문2](https://pubmed.ncbi.nlm.nih.gov/31202066/)
+
+장기간 비소로 오염된 토양에서 점토에 의한 변화
+
+
+## 실험 내용 및 데이터
+
+
+## 표 및 그래프 분석
+
+
+## 논의 내용
+
+
+## 농업/토양/정량분석 관련 자료
+
+- AQP 
+
+AQP(Algorithms for Quantitative Pedology)는 토양학에서 사용되는 알고리즘을 연구하고 개발하는 분야입니다. 이 알고리즘은 토양의 양적인 특성과 속성을 분석하고 모델링하는 데 사용됩니다. AQP는 토양과 관련된 데이터를 분석하여 토양의 특성을 이해하고 더 나은 농업 및 환경 관리 결정을 내리는 데 도움이 됩니다
+
+[AQP 패키지 모음]("https://ncss-tech.github.io/AQP/")
+
+[Agricultural Science 패키지 모음]("https://cran.r-project.org/web/views/Agriculture.html")
+
+[토양 DB 패키지]("https://ncss-tech.github.io/soilDB/")
+
+[해양 패키지]("https://github.com/paleolimbot/oceandf")
