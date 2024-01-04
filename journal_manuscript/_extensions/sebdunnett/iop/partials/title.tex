@@ -1,0 +1,10 @@
+$-- Switches bibliography styles between numerical and author year
+
+$if(iop-vancouver)$
+\usepackage[numbers,square,sort&compress]{natbib}
+\renewcommand{\bibsection}{\section*{$reference-section-title$}}
+\bibliographystyle{iopart-num}
+$else$
+\usepackage[jphysicsB]{harvard}
+\bibliographystyle{jphysicsB}
+$endif$

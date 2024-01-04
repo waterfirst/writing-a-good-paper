@@ -1,0 +1,69 @@
+$-- Code to include title page content: authors, affiliations, abstract, etc.
+
+$if(title)$
+\title[$if(short-title)$$short-title$$endif$]{$title$}
+$endif$
+
+$if(display-orcids)$
+\author{$for(by-author/allbutlast)$$it.name.literal$$$^$for(it.affiliations)$$it.number$$sep$$$$$^,$$$$^$endfor$$$$if(it.orcid)$\orcidlink{$it.orcid$}$endif$$sep$, $endfor$$for(by-author/last)$ and $it.name.literal$$$^$for(it.affiliations)$$it.number$$sep$,$endfor$$$$if(it.orcid)$\orcidlink{$it.orcid$}$endif$$endfor$}
+$else$
+\author{$for(by-author/allbutlast)$$it.name.literal$$$^$for(it.affiliations)$$it.number$$sep$$$$$^,$$$$^$endfor$$$$sep$, $endfor$$for(by-author/last)$ and $it.name.literal$$$^$for(it.affiliations)$$it.number$$sep$,$endfor$$$$endfor$}
+$endif$
+
+$for(by-affiliation)$
+    \address{$$^$it.number$$$ $it.department$, $it.name$, $it.address$, $it.city$, $it.country$ $it.postal-code$}
+$endfor$
+
+$for(by-author)$
+$if(it.attributes.corresponding)$
+\ead{$it.email$}
+$endif$
+$endfor$
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+$if(keywords)$
+\noindent{\it Keywords\/}: $for(keywords)$$keywords$$sep$, $endfor$
+$endif$
+
+$if(submitted-to)$
+\submitto{$submitted-to$}
+$endif$
+
+$if(titlepage)$
+\maketitle
+$else$
+$endif$
+
+$if(twocol)$
+$if(titlepage)$
+$else$
+\maketitle
+$endif$
+
+\ioptwocol
+
+\makeatletter
+\let\oldlt\longtable
+\let\endoldlt\endlongtable
+\def\longtable{\@ifnextchar[\longtable@i \longtable@ii}
+\def\longtable@i[#1]{\begin{figure}[t]
+\onecolumn
+\begin{minipage}{0.5\textwidth}
+\oldlt[#1]
+}
+\def\longtable@ii{\begin{figure}[t]
+\onecolumn
+\begin{minipage}{0.5\textwidth}
+\oldlt
+}
+\def\endlongtable{\endoldlt
+\end{minipage}
+\twocolumn
+\end{figure}}
+\makeatother
+$endif$

@@ -1,0 +1,281 @@
+---
+title: So you want to publish in IOP? Here's a template for you.
+short-title: IOP Template Format
+titlepage: true
+author:
+- name: John Smith
+  affiliations:
+  - id: eri
+    number: 1
+    name: Ecological Research Institute
+    department: Department of Biodiversity Conservation
+    address: 123 Willow Road
+    city: Anytown
+    country: UK
+    postal-code: NW 123
+  orcid: 0000-0000-0000-0000
+  email: johnsmith@fakeemail.com
+- name: Jane Doe
+  affiliations:
+  - ref: eri
+  - id: ues
+    number: 2
+    name: University of Environmental Science
+    department: Department of Ecosystem Management
+    address: 456 Birch Lane
+    city: Anycity
+    country: UK
+    postal-code: NR 543
+  orcid: 0000-0000-0000-0000
+  email: janedoe@fakeemail.com
+- name: Michael Johnson
+  affiliations:
+  - id: iccs
+    number: 3
+    name: Institute of Climate Change and Sustainability
+    department: Department of Renewable Energy and Carbon Sequestration
+    address: 789 Oak Street
+    city: Anybury
+    country: UK
+    postal-code: BT 987
+  orcid: 0000-0000-0000-0000
+  email: michaeljohnson@fakeemail.com
+  corresponding: true
+display-orcids: true
+abstract: |
+  The ecological emergency refers to the current state of the global environment, characterized by unprecedented declines in biodiversity, rapid loss of natural habitats, and increasing frequency of extreme weather events. The root cause of the ecological emergency is human activity, specifically the overconsumption of resources and the release of greenhouse gases. The situation is dire, with scientists warning that up to one million species are at risk of extinction due to human activities. The ecological emergency also poses a threat to human well-being as it disrupts the provision of vital ecosystem services such as air and water purification, pollination, and climate regulation. The time to act is now, as the window of opportunity to prevent the worst outcomes of the ecological emergency is rapidly closing. It is crucial that immediate and ambitious actions are taken at the global, national, and local levels to reduce greenhouse gas emissions, protect biodiversity, and restore natural habitats. This requires a transformation of our economic and societal systems towards sustainability.
+keywords:
+  - extinction
+  - deforestation
+  - species
+  - breakdown
+  - survival
+submitted-to: \ERL
+twocol: false # does not deal well with code outputs
+format:
+  iop-pdf:
+    keep-tex: true
+    cite-method: natbib # comment out for Harvard author year
+  iop-html: default
+iop-vancouver: true # comment out for Harvard author year
+bibliography: bibliography.bib
+reference-section-title: References
+classoption: [12pt] #options separated by a comma
+---
+
+# Introduction
+## ChatGPT, what are the basics of markdown?
+
+Markdown is a lightweight markup language that is used to format plain text documents. It is designed to be simple and easy to read, and it uses a set of characters and symbols to indicate formatting such as headings, lists, and emphasis. Some of the basics of Markdown include:
+
+* Headings are indicated by the pound sign (#) followed by a space. The number of pound signs used indicates the level of the heading, with one pound sign indicating the highest level heading and six pound signs indicating the lowest level heading.
+
+* Lists are created by using the dash (-) or asterisk (*) followed by a space for each list item.
+
+* Emphasis can be indicated by using asterisks (*) or underscores (_) around a word or phrase. One asterisk or underscore is used for italic emphasis, and two asterisks or underscores are used for bold emphasis.
+
+* Links can be added by using the brackets [] followed by the link text, then the brackets () followed by the link URL.
+
+* Images can be added by using the exclamation mark ! followed by the brackets [] for the image's alternate text, then the brackets () followed by the image URL.
+
+* Code blocks can be indicated by using three back-ticks (```) before and after the code snippet.
+
+Markdown is a versatile and flexible language, and there are many more elements you can add, but these are the basics to get you started. Additionally, there are different flavors of markdown, so some elements may vary depending on the implementation.
+
+For more "official" guidance: <https://quarto.org/docs/authoring/markdown-basics.html>.
+
+## And what about the basics of Quarto? {#sec-quarto-basics}
+
+Quarto is a strategy board game for two players. It was invented by Swiss mathematician Blaise Müller...
+
+..I'm going to stop you there.
+
+Basics of Quarto: <https://quarto.org/docs/guide/>.
+
+# Using this template
+
+## Format options and differences between `iop-html` and `iop-pdf` {#sec-formopt}
+
+* For the HTML format, we are using Pandoc citeproc to include the bibliography. Here `reference-section-title` controls the title for the chapter that will be used (although, specific to this template, we also use citeproc for the PDF to get Harvard style citations).
+* For the PDF format, `natbib` is used by default and the bibliography is included with a title by the {{< latex >}} template.
+
+This format provides a number of custom YAML header options to control the PDF format:
+
+```yaml
+# replaces titlepage class option
+titlepage: true
+# set to true to use the orcidlink package
+# to display linked orcid logos
+# not required by IOP but fancy...
+display-orcids: true
+# use journal macros set out in the IOP style guide
+# to add which journal an article is targeting
+# e.g. \ERL = Environmental Research Letters
+submitted-to: \ERL
+# test your article in two column form
+# NB: does not work well with code chunk outputs
+twocol: true
+# sets Vancouver numeric citation style
+# comment out both iop-vancouver and cite-method
+# for Harvard author year citation style
+iop-vancouver: true
+iop-pdf:
+  cite-method: natbib
+# see iopart.cls for option source code
+# possible options (separate with comma):
+# a4paper, letterpaper, 10pt, 12pt, draft, final
+classoptions: []
+```
+
+For the most part, it *should not be necessary* to modify the `_extension.yml` file, except maybe to switch the referencing style for the HTML output.
+
+## IOP journal and format options
+
+| Short form of journal title     | Macro name | Short form of journal title       | Macro name |
+| ------------------------------- | ---------- | --------------------------------- | ---------- |
+| 2D Mater.                       | \\TDM      | Mater. Res. Express               | \\MRE      |
+| Biofabrication                  | \\BF       | Meas. Sci. Technol.^c^            | \\MST      |
+| Bioinspir. Biomim.              | \\BB       | Methods Appl. Fluoresc.           | \\MAF      |
+| Biomed. Mater.                  | \\BMM      | Modelling Simul. Mater. Sci. Eng. | \\MSMSE    |
+| Class. Quantum Grav.            | \\CQG      | Nucl. Fusion                      | \\NF       |
+| Comput. Sci. Disc.              | \\CSD      | New J. Phys.                      | \\NJP      |
+| Environ. Res. Lett.             | \\ERL      | Nonlinearity^a,^^b^               | \\NL       |
+| Eur. J. Phys.                   | \\EJP      | Nanotechnology                    | \\NT       |
+| Inverse Problems                | \\IP       | Phys. Biol.^c^                    | \\PB       |
+| J. Breath Res.                  | \\JBR      | Phys. Educ.^a^                    | \\PED      |
+| J. Geophys. Eng.^d^             | \\JGE      | Physiol. Meas.^c,^^d,^^e^         | \\PM       |
+| J. Micromech. Microeng.         | \\JMM      | Phys. Med. Biol.^c,^^d,^^e^       | \\PMB      |
+| J. Neural Eng.^c^               | \\JNE      | Plasma Phys. Control. Fusion      | \\PPCF     |
+| J. Opt.                         | \\JOPT     | Phys. Scr.                        | \\PS       |
+| J. Phys. A: Math. Theor.        | \\jpa      | Plasma Sources Sci. Technol.      | \\PSST     |
+| J. Phys. B: At. Mol. Opt. Phys. | \\jpb      | Rep. Prog. Phys.^e^               | \\RPP      |
+| J. Phys: Condens. Matter        | \\JPCM     | Semicond. Sci. Technol.           | \\SST      |
+| J. Phys. D: Appl. Phys.         | \\JPD      | Smart Mater. Struct.              | \\SMS      |
+| J. Phys. G: Nucl. Part. Phys.   | \\jpg      | Supercond. Sci. Technol.          | \\SUST     |
+| J. Radiol. Prot.^a^             | \\JRP      | Surf. Topogr.: Metrol. Prop.      | \\STMP     |
+| Metrologia                      | \\MET      | Transl. Mater. Res.               | \\TMR      |
+
+: Journals to which this document applies, and macros for the abbreviated
+journal names. {#tbl-macros}{tbl-colwidths="[40,10,40,10]"}
+
+^a^UK spelling is required;
+^b^MSC classification numbers are required;
+^c^titles of articles are required in journal references;
+^d^Harvard-style references must be used (see Section @sec-formopt);
+^e^final page numbers of articles are required in journal references.
+
+This template has been written for the submission of an _article_ to one of the journals laid out in @tbl-macros. For other types of content for submission, the `\title` {{< latex >}} control sequence on line 2 of `partials/before-body.tex` should be replaced with:
+
+* `\paper` for a paper;
+* `\letter` for a _Letter to the Editor_;
+* `\ftc` for a _Fast Track Communication_;
+* `\rapid` for a _Rapid Communication_;
+* `\comment` for a _Comment_;
+* `\topical` for a _Topical Review_;
+* `\review` for a review article;
+* `\note` for a _Note_; and
+* `\prelim` for a _Preliminary Communication_
+
+## Shortcode demo {#sec-shortcode}
+
+PDF are rendered using {{< latex >}} but it is best if one can use a Markdown syntax for cross format support.
+
+{{{< latex >}}} used in source is a shortcode syntax to print "LaTeX" in fancy text where the shortcode is included in the extension folder `_extensions`. 
+
+Alternatively, Quarto supports a [number of shortcodes](https://quarto.org/docs/extensions/shortcodes.html) natively. For example, {{{< pagebreak >}}}
+
+{{< pagebreak >}}
+
+...inserts a page break.
+
+## Code chunk {#sec-chunks}
+
+This format hide chunks by default as option has been set in `_extension.yml` file.
+
+```{r}
+#| prompt: true
+# Loading some data but this chunk won't be shown.
+data("iris")
+```
+
+But you can set `echo` option to `true` locally in the chunk
+
+```{r}
+#| echo: true
+head(iris)
+```
+
+## Text color {#sec-summary}
+
+Our format makes applying color on inline text possible using the `[content]{color=<name>}` syntax. Let's see an example.
+
+Here we are using a special feature of our format which is the coloring because [pink is a **nice** color]{color=mypink}.
+
+This is possible thanks to the Lua Filter included in the custom extension format.
+
+## Using references
+
+I did not read this book [@Brown2019] -- coded `[@Brown2019]` -- but it must be interesting. We can add all references in the our bibliography file, even if not cited in text, with the following YAML code:
+
+```{yaml}
+#| echo: true
+nocite: |
+  '@*'
+```
+
+---
+nocite: |
+  @*
+---
+
+## Quick maths
+
+Two plus two is four, minus one that's three -- quick maths.
+
+{{< latex >}} and Quarto handle maths very well. This can be either inline, such as $E = mc^{2}$, or display maths like @eq-demo and @eq-demo2 below:
+
+$$
+P(e) - {n \choose k} p^k (2-p)^{n-k}
+$$ {#eq-demo}
+
+$$
+\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
+  + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+  \mathrm r \mathrm C 
+$$ {#eq-demo2}
+
+Please see the IOP {{< latex >}} style guide for more about mathematical equations, noting specifically p2: 
+
+>"Also note that there is an incompatibility between amsmath.sty and iopart.cls which cannot be completely worked around. If your article relies on commands in amsmath.sty that are not available in iopart.cls, you may wish to consider using a different class file."
+
+In order to avoid package clashes in this template, lines 788-789 of `iopart.cls` were commented out.
+
+## Figures {#sec-figures}
+
+Figures can be included as normal using markdown syntax:
+
+![A comic book cover of the publishing company IOP Publishing reimagined as a terrifying monster.](fig.png)
+
+See the link in @sec-quarto-basics for more on figure embedding. For IOP, figures can be included in the body of the text or grouped together at the end of the document, although the former requires less fiddling using this template.
+
+# Acknowledgements {.unnumbered #sec-ack}
+
+IOP acknowledgements go here: unnumbered, after the last numbered section and before the appendices or references. Acknowledgement of funding should also be included here.
+
+# Adding appendices
+
+The shortcodes {{{< appendix >}}} and {{{< appendices >}}} have been added for convenience. Appendices must be labelled A, B, C etc. and placed here: after the acknowledgements, before references.
+
+{{< appendices >}}
+
+# PDF format {.appendix}
+
+For only one appendix, {{{< appendix >}}} inserts the section heading "Appendix", and resets numbering so any equations and figures are correctly numbered. For more than one appendix (as here), {{{< appendices >}}} can be used: it will open the {{< latex >}} `\appendix` environment, allowing use of normal markdown section headers for each appendix: `# Data`, `# Tables`, etc.
+
+$$
+\sqrt{x^2+1}
+$$ {#eq-app}
+
+# HTML format {.appendix}
+HTML does not handle appendix numbering as well as {{< latex >}}. However, appendices can be included in the HTML appendix by adding `{.appendix}` after the section header, e.g. `# Data {.appendix}`.

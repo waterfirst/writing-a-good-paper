@@ -1,0 +1,608 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+
+\documentclass[
+  12pt]{iopart}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{orcidlink}
+\definecolor{mypink}{RGB}{219, 48, 122}
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\nocite{*}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={So you want to publish in IOP? Here's a template for you.},
+  pdfauthor={John Smith; Jane Doe; Michael Johnson},
+  pdfkeywords={extinction, deforestation, species, breakdown, survival},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\usepackage[numbers,square,sort&compress]{natbib}
+\renewcommand{\bibsection}{\section*{References}}
+\bibliographystyle{iopart-num}
+
+\begin{document}
+
+\title[IOP Template Format]{So you want to publish in IOP? Here's a
+template for you.}
+
+\author{John Smith$^1$\orcidlink{0000-0000-0000-0000}, Jane
+Doe$^1$$^,$$^2$\orcidlink{0000-0000-0000-0000} and Michael
+Johnson$^3$\orcidlink{0000-0000-0000-0000}}
+
+    \address{$^1$ Department of Biodiversity Conservation, Ecological
+Research Institute, 123 Willow Road, Anytown, UK NW 123}
+    \address{$^2$ Department of Ecosystem Management, University of
+Environmental Science, 456 Birch Lane, Anycity, UK NR 543}
+    \address{$^3$ Department of Renewable Energy and Carbon
+Sequestration, Institute of Climate Change and Sustainability, 789 Oak
+Street, Anybury, UK BT 987}
+
+\ead{michaeljohnson@fakeemail.com}
+
+\begin{abstract}
+The ecological emergency refers to the current state of the global
+environment, characterized by unprecedented declines in biodiversity,
+rapid loss of natural habitats, and increasing frequency of extreme
+weather events. The root cause of the ecological emergency is human
+activity, specifically the overconsumption of resources and the release
+of greenhouse gases. The situation is dire, with scientists warning that
+up to one million species are at risk of extinction due to human
+activities. The ecological emergency also poses a threat to human
+well-being as it disrupts the provision of vital ecosystem services such
+as air and water purification, pollination, and climate regulation. The
+time to act is now, as the window of opportunity to prevent the worst
+outcomes of the ecological emergency is rapidly closing. It is crucial
+that immediate and ambitious actions are taken at the global, national,
+and local levels to reduce greenhouse gas emissions, protect
+biodiversity, and restore natural habitats. This requires a
+transformation of our economic and societal systems towards
+sustainability.
+\end{abstract}
+
+\noindent{\it Keywords\/}: extinction, deforestation, species, breakdown, survival
+
+\submitto{\ERL}
+
+\maketitle
+
+
+\section{Introduction}\label{introduction}
+
+\subsection{ChatGPT, what are the basics of
+markdown?}\label{chatgpt-what-are-the-basics-of-markdown}
+
+Markdown is a lightweight markup language that is used to format plain
+text documents. It is designed to be simple and easy to read, and it
+uses a set of characters and symbols to indicate formatting such as
+headings, lists, and emphasis. Some of the basics of Markdown include:
+
+\begin{itemize}
+\item
+  Headings are indicated by the pound sign (\#) followed by a space. The
+  number of pound signs used indicates the level of the heading, with
+  one pound sign indicating the highest level heading and six pound
+  signs indicating the lowest level heading.
+\item
+  Lists are created by using the dash (-) or asterisk (*) followed by a
+  space for each list item.
+\item
+  Emphasis can be indicated by using asterisks (*) or underscores (\_)
+  around a word or phrase. One asterisk or underscore is used for italic
+  emphasis, and two asterisks or underscores are used for bold emphasis.
+\item
+  Links can be added by using the brackets {[}{]} followed by the link
+  text, then the brackets () followed by the link URL.
+\item
+  Images can be added by using the exclamation mark ! followed by the
+  brackets {[}{]} for the image's alternate text, then the brackets ()
+  followed by the image URL.
+\item
+  Code blocks can be indicated by using three back-ticks (```) before
+  and after the code snippet.
+\end{itemize}
+
+Markdown is a versatile and flexible language, and there are many more
+elements you can add, but these are the basics to get you started.
+Additionally, there are different flavors of markdown, so some elements
+may vary depending on the implementation.
+
+For more ``official'' guidance:
+\url{https://quarto.org/docs/authoring/markdown-basics.html}.
+
+\subsection{And what about the basics of
+Quarto?}\label{sec-quarto-basics}
+
+Quarto is a strategy board game for two players. It was invented by
+Swiss mathematician Blaise Müller\ldots{}
+
+..I'm going to stop you there.
+
+Basics of Quarto: \url{https://quarto.org/docs/guide/}.
+
+\section{Using this template}\label{using-this-template}
+
+\subsection{\texorpdfstring{Format options and differences between
+\texttt{iop-html} and
+\texttt{iop-pdf}}{Format options and differences between iop-html and iop-pdf}}\label{sec-formopt}
+
+\begin{itemize}
+\tightlist
+\item
+  For the HTML format, we are using Pandoc citeproc to include the
+  bibliography. Here \texttt{reference-section-title} controls the title
+  for the chapter that will be used (although, specific to this
+  template, we also use citeproc for the PDF to get Harvard style
+  citations).
+\item
+  For the PDF format, \texttt{natbib} is used by default and the
+  bibliography is included with a title by the {\LaTeX} template.
+\end{itemize}
+
+This format provides a number of custom YAML header options to control
+the PDF format:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# replaces titlepage class option}
+\FunctionTok{titlepage}\KeywordTok{:}\AttributeTok{ }\CharTok{true}
+\CommentTok{\# set to true to use the orcidlink package}
+\CommentTok{\# to display linked orcid logos}
+\CommentTok{\# not required by IOP but fancy...}
+\FunctionTok{display{-}orcids}\KeywordTok{:}\AttributeTok{ }\CharTok{true}
+\CommentTok{\# use journal macros set out in the IOP style guide}
+\CommentTok{\# to add which journal an article is targeting}
+\CommentTok{\# e.g. \textbackslash{}ERL = Environmental Research Letters}
+\FunctionTok{submitted{-}to}\KeywordTok{:}\AttributeTok{ \textbackslash{}ERL}
+\CommentTok{\# test your article in two column form}
+\CommentTok{\# NB: does not work well with code chunk outputs}
+\FunctionTok{twocol}\KeywordTok{:}\AttributeTok{ }\CharTok{true}
+\CommentTok{\# sets Vancouver numeric citation style}
+\CommentTok{\# comment out both iop{-}vancouver and cite{-}method}
+\CommentTok{\# for Harvard author year citation style}
+\FunctionTok{iop{-}vancouver}\KeywordTok{:}\AttributeTok{ }\CharTok{true}
+\FunctionTok{iop{-}pdf}\KeywordTok{:}
+\AttributeTok{  }\FunctionTok{cite{-}method}\KeywordTok{:}\AttributeTok{ natbib}
+\CommentTok{\# see iopart.cls for option source code}
+\CommentTok{\# possible options (separate with comma):}
+\CommentTok{\# a4paper, letterpaper, 10pt, 12pt, draft, final}
+\FunctionTok{classoptions}\KeywordTok{:}\AttributeTok{ }\KeywordTok{[]}
+\end{Highlighting}
+\end{Shaded}
+
+For the most part, it \emph{should not be necessary} to modify the
+\texttt{\_extension.yml} file, except maybe to switch the referencing
+style for the HTML output.
+
+\subsection{IOP journal and format
+options}\label{iop-journal-and-format-options}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1000}}@{}}
+\caption{Journals to which this document applies, and macros for the
+abbreviated journal names.}\label{tbl-macros}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Short form of journal title
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Macro name
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Short form of journal title
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Macro name
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Short form of journal title
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Macro name
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Short form of journal title
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Macro name
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2D Mater. & \textbackslash TDM & Mater. Res. Express &
+\textbackslash MRE \\
+Biofabrication & \textbackslash BF & Meas. Sci.
+Technol.\textsuperscript{c} & \textbackslash MST \\
+Bioinspir. Biomim. & \textbackslash BB & Methods Appl. Fluoresc. &
+\textbackslash MAF \\
+Biomed. Mater. & \textbackslash BMM & Modelling Simul. Mater. Sci. Eng.
+& \textbackslash MSMSE \\
+Class. Quantum Grav. & \textbackslash CQG & Nucl. Fusion &
+\textbackslash NF \\
+Comput. Sci. Disc. & \textbackslash CSD & New J. Phys. &
+\textbackslash NJP \\
+Environ. Res. Lett. & \textbackslash ERL &
+Nonlinearity\textsuperscript{a,b} & \textbackslash NL \\
+Eur. J. Phys. & \textbackslash EJP & Nanotechnology &
+\textbackslash NT \\
+Inverse Problems & \textbackslash IP & Phys. Biol.\textsuperscript{c} &
+\textbackslash PB \\
+J. Breath Res. & \textbackslash JBR & Phys. Educ.\textsuperscript{a} &
+\textbackslash PED \\
+J. Geophys. Eng.\textsuperscript{d} & \textbackslash JGE & Physiol.
+Meas.\textsuperscript{c,d,e} & \textbackslash PM \\
+J. Micromech. Microeng. & \textbackslash JMM & Phys. Med.
+Biol.\textsuperscript{c,d,e} & \textbackslash PMB \\
+J. Neural Eng.\textsuperscript{c} & \textbackslash JNE & Plasma Phys.
+Control. Fusion & \textbackslash PPCF \\
+J. Opt. & \textbackslash JOPT & Phys. Scr. & \textbackslash PS \\
+J. Phys. A: Math. Theor. & \textbackslash jpa & Plasma Sources Sci.
+Technol. & \textbackslash PSST \\
+J. Phys. B: At. Mol. Opt. Phys. & \textbackslash jpb & Rep.~Prog.
+Phys.\textsuperscript{e} & \textbackslash RPP \\
+J. Phys: Condens. Matter & \textbackslash JPCM & Semicond. Sci. Technol.
+& \textbackslash SST \\
+J. Phys. D: Appl. Phys. & \textbackslash JPD & Smart Mater. Struct. &
+\textbackslash SMS \\
+J. Phys. G: Nucl. Part. Phys. & \textbackslash jpg & Supercond. Sci.
+Technol. & \textbackslash SUST \\
+J. Radiol. Prot.\textsuperscript{a} & \textbackslash JRP & Surf.
+Topogr.: Metrol. Prop. & \textbackslash STMP \\
+Metrologia & \textbackslash MET & Transl. Mater. Res. &
+\textbackslash TMR \\
+\end{longtable}
+
+\textsuperscript{a}UK spelling is required; \textsuperscript{b}MSC
+classification numbers are required; \textsuperscript{c}titles of
+articles are required in journal references;
+\textsuperscript{d}Harvard-style references must be used (see Section
+Section~\ref{sec-formopt}); \textsuperscript{e}final page numbers of
+articles are required in journal references.
+
+This template has been written for the submission of an \emph{article}
+to one of the journals laid out in Table~\ref{tbl-macros}. For other
+types of content for submission, the \texttt{\textbackslash{}title}
+{\LaTeX} control sequence on line 2 of \texttt{partials/before-body.tex}
+should be replaced with:
+
+\begin{itemize}
+\tightlist
+\item
+  \texttt{\textbackslash{}paper} for a paper;
+\item
+  \texttt{\textbackslash{}letter} for a \emph{Letter to the Editor};
+\item
+  \texttt{\textbackslash{}ftc} for a \emph{Fast Track Communication};
+\item
+  \texttt{\textbackslash{}rapid} for a \emph{Rapid Communication};
+\item
+  \texttt{\textbackslash{}comment} for a \emph{Comment};
+\item
+  \texttt{\textbackslash{}topical} for a \emph{Topical Review};
+\item
+  \texttt{\textbackslash{}review} for a review article;
+\item
+  \texttt{\textbackslash{}note} for a \emph{Note}; and
+\item
+  \texttt{\textbackslash{}prelim} for a \emph{Preliminary Communication}
+\end{itemize}
+
+\subsection{Shortcode demo}\label{sec-shortcode}
+
+PDF are rendered using {\LaTeX} but it is best if one can use a Markdown
+syntax for cross format support.
+
+{} used in source is a shortcode syntax to print ``LaTeX'' in fancy text
+where the shortcode is included in the extension folder
+\texttt{\_extensions}.
+
+Alternatively, Quarto supports a
+\href{https://quarto.org/docs/extensions/shortcodes.html}{number of
+shortcodes} natively. For example, {}
+
+\newpage{}
+
+\ldots inserts a page break.
+
+\subsection{Code chunk}\label{sec-chunks}
+
+This format hide chunks by default as option has been set in
+\texttt{\_extension.yml} file.
+
+But you can set \texttt{echo} option to \texttt{true} locally in the
+chunk
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{head}\NormalTok{(iris)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+1          5.1         3.5          1.4         0.2  setosa
+2          4.9         3.0          1.4         0.2  setosa
+3          4.7         3.2          1.3         0.2  setosa
+4          4.6         3.1          1.5         0.2  setosa
+5          5.0         3.6          1.4         0.2  setosa
+6          5.4         3.9          1.7         0.4  setosa
+\end{verbatim}
+
+\subsection{Text color}\label{sec-summary}
+
+Our format makes applying color on inline text possible using the
+\texttt{{[}content{]}\{color=\textless{}name\textgreater{}\}} syntax.
+Let's see an example.
+
+Here we are using a special feature of our format which is the coloring
+because \textcolor{mypink}{pink is a \textbf{nice} color}.
+
+This is possible thanks to the Lua Filter included in the custom
+extension format.
+
+\subsection{Using references}\label{using-references}
+
+I did not read this book \citep{Brown2019} -- coded
+\texttt{{[}@Brown2019{]}} -- but it must be interesting. We can add all
+references in the our bibliography file, even if not cited in text, with
+the following YAML code:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{nocite}\KeywordTok{: }\CharTok{|}
+\NormalTok{  \textquotesingle{}@*\textquotesingle{}}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{Quick maths}\label{quick-maths}
+
+Two plus two is four, minus one that's three -- quick maths.
+
+{\LaTeX} and Quarto handle maths very well. This can be either inline,
+such as \(E = mc^{2}\), or display maths like Equation~\ref{eq-demo} and
+Equation~\ref{eq-demo2} below:
+
+\begin{equation}\phantomsection\label{eq-demo}{
+P(e) - {n \choose k} p^k (2-p)^{n-k}
+}\end{equation}
+
+\begin{equation}\phantomsection\label{eq-demo2}{
+\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2}
+\frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
+  + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
+  \mathrm r \mathrm C 
+}\end{equation}
+
+Please see the IOP {\LaTeX} style guide for more about mathematical
+equations, noting specifically p2:
+
+\begin{quote}
+``Also note that there is an incompatibility between amsmath.sty and
+iopart.cls which cannot be completely worked around. If your article
+relies on commands in amsmath.sty that are not available in iopart.cls,
+you may wish to consider using a different class file.''
+\end{quote}
+
+In order to avoid package clashes in this template, lines 788-789 of
+\texttt{iopart.cls} were commented out.
+
+\subsection{Figures}\label{sec-figures}
+
+Figures can be included as normal using markdown syntax:
+
+\begin{figure}[H]
+
+{\centering \includegraphics{fig.png}
+
+}
+
+\caption{A comic book cover of the publishing company IOP Publishing
+reimagined as a terrifying monster.}
+
+\end{figure}%
+
+See the link in Section~\ref{sec-quarto-basics} for more on figure
+embedding. For IOP, figures can be included in the body of the text or
+grouped together at the end of the document, although the former
+requires less fiddling using this template.
+
+\section*{Acknowledgements}\label{sec-ack}
+\addcontentsline{toc}{section}{Acknowledgements}
+
+IOP acknowledgements go here: unnumbered, after the last numbered
+section and before the appendices or references. Acknowledgement of
+funding should also be included here.
+
+\section{Adding appendices}\label{adding-appendices}
+
+The shortcodes {} and {} have been added for convenience. Appendices
+must be labelled A, B, C etc. and placed here: after the
+acknowledgements, before references.
+
+\appendix
+
+\section{PDF format}\label{pdf-format}
+
+For only one appendix, {} inserts the section heading ``Appendix'', and
+resets numbering so any equations and figures are correctly numbered.
+For more than one appendix (as here), {} can be used: it will open the
+{\LaTeX} \texttt{\textbackslash{}appendix} environment, allowing use of
+normal markdown section headers for each appendix: \texttt{\#\ Data},
+\texttt{\#\ Tables}, etc.
+
+\begin{equation}\phantomsection\label{eq-app}{
+\sqrt{x^2+1}
+}\end{equation}
+
+\section{HTML format}\label{html-format}
+
+HTML does not handle appendix numbering as well as {\LaTeX}. However,
+appendices can be included in the HTML appendix by adding
+\texttt{\{.appendix\}} after the section header,
+e.g.~\texttt{\#\ Data\ \{.appendix\}}.
+
+
+  \bibliography{bibliography.bib}
+
+
+\end{document}

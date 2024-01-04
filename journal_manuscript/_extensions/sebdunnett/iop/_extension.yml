@@ -1,0 +1,46 @@
+title: IOP Template
+author: Seb Dunnett
+version: 0.1.0
+contributes:
+  formats:
+    common:
+      filters:
+        - color-text.lua
+      shortcodes:
+        - shortcodes.lua
+      knitr:
+        opts_chunk:
+          echo: false
+      number-sections: true
+    pdf:
+      documentclass: iopart
+      colorlinks: false
+      #urlcolor: red
+      fig-width: 6.5
+      fig-height: 4.5
+      biblio-config: false
+      header-includes: |
+        \usepackage{orcidlink}
+        \definecolor{mypink}{RGB}{219, 48, 122}
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+      template-partials:
+        - "partials/doc-class.tex"
+        - "partials/before-body.tex"
+        - "partials/title.tex"
+      format-resources:
+        - iopart.cls
+        - iopams.sty
+        - iopart10.clo
+        - iopart12.clo
+        - harvard.sty
+        - setstack.sty
+        - iopart-num.bst
+        - jphysicsB.bst
+    html:
+      toc: true
+      theme: custom.scss
+      # numeric
+      csl: https://www.zotero.org/styles/institute-of-physics-numeric
+      # harvard
+      # csl: https://www.zotero.org/styles/institute-of-physics-harvard
