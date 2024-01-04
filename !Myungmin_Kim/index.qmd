@@ -1,0 +1,80 @@
+---
+title: "단백질 정제 및 특성 연구"
+author:  "김명민"
+date: 02/10/2024
+date-format: long
+format : html
+editor: visual
+---
+
+제목: 단백질 정제 및 특성화 탐구: 클로닝, 정제 기술 및 활동 연구
+
+초록: 이 논문에서는 복제를 통한 재조합 단백질 생성에 특히 중점을 두고 단백질 정제 및 특성화와 관련된 프로세스를 조사합니다. 이 연구에서는 다양한 정제 컬럼을 사용하고 정제된 표적 단백질의 활성 테스트 및 단백질-리간드 결합 특성에 대한 후속 분석을 포함합니다. 이 연구는 재조합 단백질의 행동과 다양한 과학 분야에 걸친 잠재적 응용에 대한 이해를 높이는 것을 목표로 합니다.
+
+1.  소개: 단백질 구조와 기능을 이해하기 위한 탐구에서 이 연구는 클로닝 기술을 사용하여 재조합 단백질을 생성한 후 여러 컬럼을 사용하여 정제하는 데 중점을 두고 있습니다. 이 연구에서는 단백질 정제 및 특성화와 관련된 단계를 탐구하고 다양한 과학 분야에서 이러한 기술의 실제 적용을 강조합니다.
+
+2.  방법: 이 방법론에는 표적 단백질을 복제하여 재조합 단백질을 생성하는 과정이 포함됩니다. 후속 정제 공정에서는 다양한 컬럼을 활용하여 크로마토그래피 및 친화성 기술을 사용하여 목적 단백질을 분리 및 정제합니다. 실험 설정은 얻은 결과의 재현성과 신뢰성을 보장합니다.
+
+3. 실험 및 결과: 실험 절차에는 표적 단백질을 클로닝하고 이를 적합한 숙주 시스템에서 발현시키는 것이 포함됩니다. 정제 과정에는 순차 컬럼 크로마토그래피가 포함되며 각 단계를 주의 깊게 모니터링합니다. 획득된 재조합 단백질은 활성 테스트 및 단백질-리간드 결합 연구를 포함하여 포괄적인 특성 분석을 거칩니다. 결과는 정제 과정의 효율성과 정제된 단백질의 기능적 특성을 강조합니다.
+
+4.  논의: 토론에서는 실험 결과를 해석하고 고품질 재조합 단백질을 얻는 데 있어 클로닝 및 정제 기술의 중요성을 다룹니다. 다양한 컬럼 크로마토그래피 방법의 비교 분석이 제시되어 해당 방법의 장점과 한계를 강조합니다. 단백질-리간드 결합 특성에 대한 통찰력은 정제된 단백질의 기능적 특성에 대한 이해를 심화시킵니다. 이 섹션은 다양한 과학 분야에서 이러한 기술의 광범위한 적용을 논의하기 위한 플랫폼 역할을 합니다.
+
+5.  결론: 결론적으로, 이 연구는 단백질 정제 및 특성화에 대한 귀중한 통찰력을 제공합니다. 클로닝 기술과 고급 정제 컬럼을 사용하면 고순도 재조합 단백질을 얻는 데 효과적인 것으로 입증되었습니다. 단백질 활성 및 리간드 결합 특성에 대한 자세한 조사는 기능적 특성에 대한 이해를 향상시킵니다. 이 연구는 해당 분야의 추가 발전을 위한 발판을 마련하고, 이를 추구하는 연구자와 실무자에게 토대를 제공합니다.
+
+------------------------------------------------------------------------
+
+Title: Exploring Protein Purification and Characterization: Cloning, Purification Techniques, and Activity Studies
+
+Abstract: This paper investigates the processes involved in protein purification and characterization, with a specific focus on creating recombinant proteins through cloning. The study employs various purification columns and includes subsequent analyses of activity tests and protein-ligand binding characteristics of the purified target protein. This research aims to advance our understanding of recombinant protein behavior and its potential applications across diverse scientific disciplines.
+
+1.  Introduction: In the quest to comprehend protein structure and function, this research centers on creating recombinant proteins using cloning techniques, followed by their purification with multiple columns. The study explores the steps involved in protein purification and characterization, emphasizing the practical applications of these techniques in various scientific fields.
+
+2.  Method: The methodology involves cloning target proteins to generate recombinant proteins. The subsequent purification process utilizes diverse columns to isolate and purify the target protein, employing chromatographic and affinity techniques. The experimental setup ensures reproducibility and reliability in the obtained results.
+
+3.  Experimentals and Results: Experimental procedures include cloning target proteins and expressing them in a suitable host system. The purification process involves sequential column chromatography, with each step carefully monitored. The obtained recombinant protein undergoes comprehensive characterization, including activity tests and studies of protein-ligand binding. Results highlight the efficiency of the purification process and the functional characteristics of the purified protein.
+
+4.  Discussion: The discussion interprets the experimental findings, addressing the importance of cloning and purification techniques in obtaining high-quality recombinant proteins. Comparative analysis of different column chromatography methods is presented, emphasizing their strengths and limitations. Insights into protein-ligand binding characteristics deepen our understanding of the functional properties of the purified proteins. This section serves as a platform for discussing the broader applications of these techniques in diverse scientific fields.
+
+5.  Conclusion: In conclusion, this research provides valuable insights into protein purification and characterization. The use of cloning techniques and advanced purification columns has proven effective in obtaining high-purity recombinant proteins. The detailed examination of protein activity and ligand binding characteristics enhances our understanding of their functional properties. This study sets the stage for further advancements in the field, offering a foundation for researchers and practitioners seeking to employ these techniques in their scientific endeavors. - - -
+
+
+[지도교수 : 정제훈 교수](https://natural.jnu.ac.kr/natural/14500/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZiUyRm5hdHVyYWwlMkY0MjElMkYxOTElMkZ2aWV3LmRvJTNG)
+
+
+- - -
+
+
+## 정제훈 교수님 SCI 논문 리스트
+
+[리스트 url](https://pubmed.ncbi.nlm.nih.gov/?term=Che-Hun+Jung+&sort=pubdate&size=20)
+
+
+[최신 논문1](https://pubmed.ncbi.nlm.nih.gov/37634412/)  
+
+[최신 논문2](https://pubmed.ncbi.nlm.nih.gov/34360641/)
+
+
+
+
+## 실험 내용 및 데이터
+
+
+## 표 및 그래프 분석
+
+
+## 논의 내용
+
+
+
+## 단백질 연구 R 패키지
+
+1. 단백질 데이터 분석 [참고1]("https://www.bioconductor.org/packages/release/data/experiment/vignettes/RforProteomics/inst/doc/RforProteomics.html")  
+
+2. 단백질 분석 자료 [참고2]("https://pnnl-comp-mass-spec.github.io/proteomics-data-analysis-tutorial/index.html")
+
+3. 단백질 분석 자료 [참고3]("https://academic.oup.com/bioinformaticsadvances/article/2/1/vbab041/6459165")
+
+4. 3D 단백질 그리기 패키지 [참고4]("http://thegrantlab.org/bio3d/")
+
+
+
