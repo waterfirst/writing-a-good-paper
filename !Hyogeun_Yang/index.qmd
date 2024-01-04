@@ -1,0 +1,71 @@
+---
+title: "CO2, CH4 등의 Carbon 소비 연구"
+author:  "양효근"
+date: 02/10/2024
+date-format: long
+format : html
+editor: visual
+---
+
+제목: 부가가치가 높은 화합물 생산을 위한 CO2 및 CH4 반응의 지속 가능한 탄소 소비 주기에 대한 기술적, 과학적 접근 방식
+
+초록: 본 논문에서는 순차 반응 공정에서 CO2와 CH4를 활용하여 가치 있는 화합물을 생산하고 지구 온난화 완화 및 에너지 생성에 기여할 수 있는 가능성을 조사합니다. 이 연구는 지속 가능한 탄소 소비 순환을 구축하는 것을 목표로 반응 과정을 설명하기 위해 기술적이고 과학적인 접근 방식을 사용합니다. 본 연구의 키워드에는 지속 가능성, 탄소 소비, CO2 및 CH4 반응 주기가 포함됩니다.
+
+1. 소개: 지구 온난화와 지속 가능한 에너지원에 대한 필요성에 대한 우려가 높아지면서 기후 변화를 완화하고 가치 있는 제품을 생산할 수 있는 방법에 대한 관심이 높아지고 있습니다. 통제되고 효율적인 방식으로 이산화탄소(CO2)와 메탄(CH4)을 활용하는 것은 이러한 과제를 해결하기 위한 유망한 방법을 제시합니다. 본 논문에서는 CO2와 CH4를 지속적으로 소비하여 다양한 가치 있는 화합물을 생산하는 순차 반응 과정을 탐구하고 이를 지속 가능한 솔루션을 위한 핵심 기술로 자리매김하고 있습니다.
+
+2. 방법: 실험 방법론에는 CO2와 CH4를 유용한 화합물로 변환하는 것을 목표로 하는 순차적 반응 공정에 대한 체계적인 접근 방식이 포함됩니다. 이 공정은 온도, 압력, 촉매 등의 매개변수를 최적화하면서 통제된 조건에서 수행됩니다. 다양한 단계에서 반응 중간체와 생성물을 모니터링하고 분석하기 위해 고급 분석 기술이 사용됩니다. 이 섹션에서는 장비, 재료 및 절차를 포함한 실험 설정에 대해 자세히 설명합니다.
+
+3. 실험 및 결과: 실험 결과는 순차적 반응 과정에 대한 포괄적인 분석을 제시합니다. 여기에는 생성된 화합물의 식별 및 정량화, CO2 및 CH4 소비 효율성, 반응 중에 형성된 모든 부산물이 포함됩니다. 실험 데이터를 시각적으로 표현하기 위해 그래프, 차트, 표를 활용합니다. 결과는 지속 가능성과 에너지 생성의 맥락에서 논의되어 제안된 방법의 잠재력을 강조합니다.
+
+4. 논의: 이 섹션에서는 실험 결과의 해석을 자세히 살펴보고 순차 반응 과정의 기본 메커니즘에 대한 통찰력을 제공합니다. 토론에서는 탄소 소비의 효율성, 촉매의 역할, 확장성 및 산업 적용과 관련된 잠재적인 과제를 탐구합니다. 제안된 접근법의 장점과 한계를 보여주기 위해 기존 방법 및 기술과의 비교가 이루어질 것입니다.
+
+5. 결론: 결론적으로, 이 논문은 CO2와 CH4 반응의 지속 가능한 탄소 소비 주기에 사용되는 기술적, 과학적 접근 방식의 중요성을 강조합니다. 결과는 지구 온난화를 완화하는 동시에 귀중한 화합물을 생성할 수 있는 잠재력을 보여줍니다. 제안된 방법은 기후 변화와 에너지 지속 가능성이 서로 얽힌 문제를 해결하기 위한 핵심 기술로서 유망하며, 향후 연구 개발의 길을 열어줄 것입니다.
+
+------------------------------------------------------------------------
+
+Title: Technological and Scientific Approach to Sustainable Carbon Consumption Cycle of CO2 and CH4 Reaction for Value-Added Compound Production
+
+Abstract: This paper investigates the potential of utilizing CO2 and CH4 in a sequential reaction process to produce valuable compounds, contributing to global warming mitigation and energy generation. The study employs a technological and scientific approach to elucidate the reaction process, aiming to establish a sustainable carbon consumption cycle. The keywords for this research include sustainability, carbon consumption, and the cycle of CO2 and CH4 reaction.
+
+1. Introduction: The increasing concerns about global warming and the need for sustainable energy sources have led to a growing interest in methods that can both mitigate climate change and generate valuable products. The utilization of carbon dioxide (CO2) and methane (CH4) in a controlled and efficient manner presents a promising avenue for addressing these challenges. This paper explores a sequential reaction process that continuously consumes CO2 and CH4 to produce various valuable compounds, positioning it as a core technology for a sustainable solution.
+
+2. Method: The experimental methodology involves a systematic approach to the sequential reaction process aiming to convert CO2 and CH4 into valuable compounds. The process will be conducted under controlled conditions, optimizing parameters such as temperature, pressure, and catalysts. Advanced analytical techniques will be employed to monitor and analyze the reaction intermediates and products at various stages. This section details the experimental setup, including equipment, materials, and procedures.
+
+3. Experimentals and Results: The experimental results will present a comprehensive analysis of the sequential reaction process. This includes the identification and quantification of the produced compounds, efficiency of CO2 and CH4 consumption, and any by-products formed during the reaction. Graphs, charts, and tables will be utilized to visually represent the experimental data. The results will be discussed in the context of sustainability and energy generation, highlighting the potential of the proposed method.
+
+4. Discussion: This section delves into the interpretation of the experimental results, providing insights into the underlying mechanisms of the sequential reaction process. The discussion will explore the efficiency of carbon consumption, the role of catalysts, and potential challenges associated with scalability and industrial application. Comparisons with existing methods and technologies will be made to showcase the advantages and limitations of the proposed approach.
+
+5. Conclusion: In conclusion, this paper emphasizes the significance of the technological and scientific approach employed in the sustainable carbon consumption cycle of CO2 and CH4 reaction. The results demonstrate the potential for mitigating global warming while simultaneously generating valuable compounds. The proposed method holds promise as a core technology for addressing the intertwined challenges of climate change and energy sustainability, opening avenues for further research and development in this crucial field.
+
+------------------------------------------------------------------------
+
+[지도교수: 나경수 교수](https://nanocatalystlab.wixsite.com/nanocatalystlab)
+
+
+
+## 나경수 교수님 SCI 논문 리스트
+
+[리스트 url](https://www.webofscience.com/wos/author/record/AAQ-7708-2020)
+
+[최신 CO2 소비 논문1](https://doi.org/10.1016/j.cej.2023.145851)  
+
+[최신 CO2 소비 논문2](https://pubs.rsc.org/en/content/articlelanding/2022/ta/d2ta05138a/unauth)
+
+
+## 실험 내용 및 데이터
+
+
+## 표 및 그래프 분석
+
+
+## 논의 내용
+
+
+
+## 화학 연구 R 패키지
+
+1. [chemr 패키지]("https://github.com/paleolimbot/chemr")
+
+2. [r을 이용한 화학 논문]("https://cran.r-project.org/doc/Rnews/Rnews_2006-3.pdf")
+
+3. [물리화학 r 패키지]("https://cran.r-project.org/web/views/ChemPhys.html")

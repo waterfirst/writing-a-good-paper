@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: f42e2187-a43b-46d8-a491-67b1ddd6bad1
+      url: 'https://waterfirst.quarto.pub/hyogeun_yang'
