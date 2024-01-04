@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.523">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="서유진">
+<meta name="dcterms.date" content="2024-02-10">
+
+<title>Yujin Seo - 플라스틱 풍화 연구</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Yujin Seo</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#조은혜-교수님-sci-논문-리스트" id="toc-조은혜-교수님-sci-논문-리스트" class="nav-link active" data-scroll-target="#조은혜-교수님-sci-논문-리스트">조은혜 교수님 SCI 논문 리스트</a></li>
+  <li><a href="#실험-내용-및-데이터" id="toc-실험-내용-및-데이터" class="nav-link" data-scroll-target="#실험-내용-및-데이터">실험 내용 및 데이터</a></li>
+  <li><a href="#표-및-그래프-분석" id="toc-표-및-그래프-분석" class="nav-link" data-scroll-target="#표-및-그래프-분석">표 및 그래프 분석</a></li>
+  <li><a href="#논의-내용" id="toc-논의-내용" class="nav-link" data-scroll-target="#논의-내용">논의 내용</a></li>
+  <li><a href="#농업토양정량분석-관련-자료" id="toc-농업토양정량분석-관련-자료" class="nav-link" data-scroll-target="#농업토양정량분석-관련-자료">농업/토양/정량분석 관련 자료</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">플라스틱 풍화 연구</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>서유진 </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 10, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>제목: 플라스틱 풍화 전·후 환경오염물질 흡착특성 변화</p>
+<p>초록: 본 연구에서는 풍화 전후 플라스틱 표면의 환경 오염 물질 흡착 특성의 변화를 조사합니다. 플라스틱이 환경에 미치는 영향에 대한 관심이 높아지면서 풍화 작용이 오염 물질의 흡착 거동에 어떻게 영향을 미치는지 이해하는 것이 중요합니다. 이 연구는 다양한 환경에서 흔히 발견되는 플라스틱에 초점을 맞추고 풍화 플라스틱과 환경 오염 물질 사이의 복잡한 상호 작용에 대한 귀중한 통찰력을 제공하는 것을 목표로 합니다. 플라스틱 유형, 풍화 조건 및 오염 물질 흡착과 같은 주요 측면을 탐구합니다. 결과는 플라스틱 오염이 환경에 미치는 장기적인 영향을 평가하는 데 필수적인 정보를 제공합니다.</p>
+<p>키워드: 플라스틱, 프탈레이트, 독성, 흡착, 풍화</p>
+<ol type="1">
+<li><dl>
+<dt>소개</dt>
+<dd>
+플라스틱은 현대 생활에 필수적인 요소가 되었지만 환경에 미치는 영향은 전 세계적으로 우려를 불러일으켰습니다. 플라스틱의 영향에 대한 광범위한 연구에도 불구하고 풍화 플라스틱과 환경 오염 물질과의 상호 작용에 대한 이해는 여전히 제한적입니다. 본 연구에서는 풍화 전후 플라스틱 표면의 환경 오염 물질 흡착 특성 변화를 조사하여 이러한 격차를 해결합니다. 이 연구의 근거는 풍화 플라스틱과 오염 물질 역학에 영향을 미칠 가능성에 대한 관심이 부족하다는 데 뿌리를 두고 있습니다.
+</dd>
+</dl></li>
+<li>방법: 2.1 플라스틱 유형 선택: 환경 설정에서 흔히 발견되는 다양한 플라스틱 유형이 이 연구를 위해 선택되었습니다. 여기에는 일반적으로 사용되는 다양한 플라스틱을 대표하는 폴리에틸렌, 폴리프로필렌, 폴리스티렌이 포함됩니다.</li>
+</ol>
+<p>2.2 풍화 조건: 자연 환경 조건을 시뮬레이션하기 위해 풍화 챔버를 사용하여 제어된 풍화 실험을 수행했습니다. 플라스틱 표면에 미치는 영향을 평가하기 위해 풍화 작용의 지속 시간과 강도를 다양하게 조정했습니다.</p>
+<p>2.3 오염물질 흡착 연구: 환경 오염물질로 알려진 프탈레이트가 모델 오염물질로 선택되었습니다. 일관성을 보장하기 위해 표준화된 프로토콜을 사용하여 풍화 전후에 흡착 연구가 수행되었습니다.</p>
+<ol start="3" type="1">
+<li><p>실험 및 결과: 실험 섹션에서는 수행된 실험을 자세히 설명하고 결과를 제시합니다. 거칠기, 화학적 조성과 같은 표면 특성의 변화에 ​​대해 논의합니다. 원래 플라스틱과 비교하여 풍화 플라스틱의 흡착 용량을 제시하고 플라스틱 유형 및 풍화 조건 간의 차이를 강조합니다.</p></li>
+<li><p>논의: 토론 섹션에서는 결과를 해석하여 환경 오염 물질 역학에 대한 흡착 특성 변화의 의미를 탐구합니다. 흡착 거동에 대한 플라스틱 유형 및 풍화 기간의 영향을 조사합니다. 또한, 흡착된 오염물질의 잠재적인 독성과 보다 광범위한 환경적 영향에 대해서도 논의합니다.</p></li>
+<li><p>결론: 이 연구는 풍화 전후 플라스틱에 대한 환경 오염 물질의 흡착 특성 변화에 대한 귀중한 통찰력을 제공합니다. 이번 발견은 환경 평가에서 풍화 플라스틱을 고려하는 것의 중요성을 강조합니다. 풍화 플라스틱이 오염 물질 역학에 미치는 장기적인 영향에 대한 이해를 심화하기 위한 미래 연구 방법이 제안되었습니다.</p></li>
+</ol>
+<hr>
+<p>Title: Changes in Adsorption Properties of Environmental Pollutants Before and After Weathering of Plastics</p>
+<p>Abstract: This research investigates the alterations in the adsorption properties of environmental pollutants on plastic surfaces before and after weathering. With a growing concern for the environmental impact of plastics, understanding how weathering affects the adsorption behavior of pollutants is crucial. The study focuses on plastics commonly found in various environments and aims to contribute valuable insights into the complex interactions between weathered plastics and environmental contaminants. Key aspects such as plastic type, weathering conditions, and pollutant adsorption are explored. The results provide essential information for assessing the long-term environmental implications of plastic pollution.</p>
+<p>Keywords: plastic, phthalate, toxicity, adsorption, weathering</p>
+<ol type="1">
+<li><p>Introduction: Plastics have become integral to modern life, yet their environmental consequences have raised concerns worldwide. Despite extensive research on the impacts of plastics, the understanding of weathered plastics and their interactions with environmental pollutants remains limited. This study addresses this gap by examining changes in adsorption properties of environmental pollutants on plastic surfaces before and after weathering. The rationale for this research is rooted in the insufficient attention given to weathered plastics and their potential to influence pollutant dynamics.</p></li>
+<li><p>Method: 2.1 Selection of Plastic Types: Various plastic types commonly found in environmental settings were selected for this study. These include polyethylene, polypropylene, and polystyrene, representing a range of commonly used plastics.</p></li>
+</ol>
+<p>2.2 Weathering Conditions: Controlled weathering experiments were conducted using a weathering chamber to simulate natural environmental conditions. The duration and intensity of weathering were varied to assess their impact on plastic surfaces.</p>
+<p>2.3 Pollutant Adsorption Studies: Phthalates, known environmental pollutants, were chosen as model contaminants. Adsorption studies were conducted before and after weathering, employing standardized protocols to ensure consistency.</p>
+<ol start="3" type="1">
+<li><p>Experimentals and Results: The experimentals section details the conducted experiments and presents the results. Changes in surface characteristics, such as roughness and chemical composition, are discussed. Adsorption capacities of weathered plastics compared to pristine ones are presented, highlighting variations among plastic types and weathering conditions.</p></li>
+<li><p>Discussion: The discussion section interprets the results, exploring the implications of changes in adsorption properties on environmental pollutant dynamics. The influence of plastic type and weathering duration on adsorption behavior is examined. Additionally, the potential toxicity of adsorbed pollutants and the broader environmental consequences are discussed.</p></li>
+<li><p>Conclusion: This research contributes valuable insights into the changes in adsorption properties of environmental pollutants on plastics before and after weathering. The findings underscore the significance of considering weathered plastics in environmental assessments. Future research avenues are suggested to deepen our understanding of the long-term impacts of weathered plastics on pollutant dynamics.</p></li>
+</ol>
+<p><a href="https://agrochem.jnu.ac.kr/agrochem/5246/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZiUyRmFncm9jaGVtJTJGMTA4JTJGMjEyMiUyRnZpZXcuZG8lM0Y%3D">지도교수: 조은혜 교수</a></p>
+<hr>
+<section id="조은혜-교수님-sci-논문-리스트" class="level2">
+<h2 class="anchored" data-anchor-id="조은혜-교수님-sci-논문-리스트">조은혜 교수님 SCI 논문 리스트</h2>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Eun+Hea+Jho&amp;sort=pubdate&amp;size=20">리스트 url</a></p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/37506887/">최신 논문1</a></p>
+<p>미세플라스틱 상추 영향 논문</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/37196794/">최신 논문2</a></p>
+<p>미세 플라스틱 조각에 노출된 지렁이</p>
+</section>
+<section id="실험-내용-및-데이터" class="level2">
+<h2 class="anchored" data-anchor-id="실험-내용-및-데이터">실험 내용 및 데이터</h2>
+</section>
+<section id="표-및-그래프-분석" class="level2">
+<h2 class="anchored" data-anchor-id="표-및-그래프-분석">표 및 그래프 분석</h2>
+</section>
+<section id="논의-내용" class="level2">
+<h2 class="anchored" data-anchor-id="논의-내용">논의 내용</h2>
+</section>
+<section id="농업토양정량분석-관련-자료" class="level2">
+<h2 class="anchored" data-anchor-id="농업토양정량분석-관련-자료">농업/토양/정량분석 관련 자료</h2>
+<ul>
+<li>AQP</li>
+</ul>
+<p>AQP(Algorithms for Quantitative Pedology)는 토양학에서 사용되는 알고리즘을 연구하고 개발하는 분야입니다. 이 알고리즘은 토양의 양적인 특성과 속성을 분석하고 모델링하는 데 사용됩니다. AQP는 토양과 관련된 데이터를 분석하여 토양의 특성을 이해하고 더 나은 농업 및 환경 관리 결정을 내리는 데 도움이 됩니다</p>
+<p><a href="&quot;https://ncss-tech.github.io/AQP/&quot;">AQP 패키지 모음</a></p>
+<p><a href="&quot;https://cran.r-project.org/web/views/Agriculture.html&quot;">Agricultural Science 패키지 모음</a></p>
+<p><a href="&quot;https://ncss-tech.github.io/soilDB/&quot;">토양 DB 패키지</a></p>
+<p><a href="&quot;https://github.com/paleolimbot/oceandf&quot;">해양 패키지</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

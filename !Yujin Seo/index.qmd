@@ -1,0 +1,99 @@
+---
+title: "플라스틱 풍화 연구"
+author:  "서유진"
+date: 02/10/2024
+date-format: long
+format : html
+editor: visual
+---
+
+제목: 플라스틱 풍화 전·후 환경오염물질 흡착특성 변화
+
+초록: 본 연구에서는 풍화 전후 플라스틱 표면의 환경 오염 물질 흡착 특성의 변화를 조사합니다. 플라스틱이 환경에 미치는 영향에 대한 관심이 높아지면서 풍화 작용이 오염 물질의 흡착 거동에 어떻게 영향을 미치는지 이해하는 것이 중요합니다. 이 연구는 다양한 환경에서 흔히 발견되는 플라스틱에 초점을 맞추고 풍화 플라스틱과 환경 오염 물질 사이의 복잡한 상호 작용에 대한 귀중한 통찰력을 제공하는 것을 목표로 합니다. 플라스틱 유형, 풍화 조건 및 오염 물질 흡착과 같은 주요 측면을 탐구합니다. 결과는 플라스틱 오염이 환경에 미치는 장기적인 영향을 평가하는 데 필수적인 정보를 제공합니다.
+
+키워드: 플라스틱, 프탈레이트, 독성, 흡착, 풍화
+
+1.  소개
+: 플라스틱은 현대 생활에 필수적인 요소가 되었지만 환경에 미치는 영향은 전 세계적으로 우려를 불러일으켰습니다. 플라스틱의 영향에 대한 광범위한 연구에도 불구하고 풍화 플라스틱과 환경 오염 물질과의 상호 작용에 대한 이해는 여전히 제한적입니다. 본 연구에서는 풍화 전후 플라스틱 표면의 환경 오염 물질 흡착 특성 변화를 조사하여 이러한 격차를 해결합니다. 이 연구의 근거는 풍화 플라스틱과 오염 물질 역학에 영향을 미칠 가능성에 대한 관심이 부족하다는 데 뿌리를 두고 있습니다.
+
+2.  방법: 2.1 플라스틱 유형 선택: 환경 설정에서 흔히 발견되는 다양한 플라스틱 유형이 이 연구를 위해 선택되었습니다. 여기에는 일반적으로 사용되는 다양한 플라스틱을 대표하는 폴리에틸렌, 폴리프로필렌, 폴리스티렌이 포함됩니다.
+
+2.2 풍화 조건: 자연 환경 조건을 시뮬레이션하기 위해 풍화 챔버를 사용하여 제어된 풍화 실험을 수행했습니다. 플라스틱 표면에 미치는 영향을 평가하기 위해 풍화 작용의 지속 시간과 강도를 다양하게 조정했습니다.
+
+2.3 오염물질 흡착 연구: 환경 오염물질로 알려진 프탈레이트가 모델 오염물질로 선택되었습니다. 일관성을 보장하기 위해 표준화된 프로토콜을 사용하여 풍화 전후에 흡착 연구가 수행되었습니다.
+
+3.  실험 및 결과: 실험 섹션에서는 수행된 실험을 자세히 설명하고 결과를 제시합니다. 거칠기, 화학적 조성과 같은 표면 특성의 변화에 ​​대해 논의합니다. 원래 플라스틱과 비교하여 풍화 플라스틱의 흡착 용량을 제시하고 플라스틱 유형 및 풍화 조건 간의 차이를 강조합니다.
+
+4.  논의: 토론 섹션에서는 결과를 해석하여 환경 오염 물질 역학에 대한 흡착 특성 변화의 의미를 탐구합니다. 흡착 거동에 대한 플라스틱 유형 및 풍화 기간의 영향을 조사합니다. 또한, 흡착된 오염물질의 잠재적인 독성과 보다 광범위한 환경적 영향에 대해서도 논의합니다.
+
+5.  결론: 이 연구는 풍화 전후 플라스틱에 대한 환경 오염 물질의 흡착 특성 변화에 대한 귀중한 통찰력을 제공합니다. 이번 발견은 환경 평가에서 풍화 플라스틱을 고려하는 것의 중요성을 강조합니다. 풍화 플라스틱이 오염 물질 역학에 미치는 장기적인 영향에 대한 이해를 심화하기 위한 미래 연구 방법이 제안되었습니다.
+
+- - -
+
+Title: Changes in Adsorption Properties of Environmental Pollutants Before and After Weathering of Plastics
+
+Abstract: This research investigates the alterations in the adsorption properties of environmental pollutants on plastic surfaces before and after weathering. With a growing concern for the environmental impact of plastics, understanding how weathering affects the adsorption behavior of pollutants is crucial. The study focuses on plastics commonly found in various environments and aims to contribute valuable insights into the complex interactions between weathered plastics and environmental contaminants. Key aspects such as plastic type, weathering conditions, and pollutant adsorption are explored. The results provide essential information for assessing the long-term environmental implications of plastic pollution.
+
+Keywords: plastic, phthalate, toxicity, adsorption, weathering
+
+1. Introduction: Plastics have become integral to modern life, yet their environmental consequences have raised concerns worldwide. Despite extensive research on the impacts of plastics, the understanding of weathered plastics and their interactions with environmental pollutants remains limited. This study addresses this gap by examining changes in adsorption properties of environmental pollutants on plastic surfaces before and after weathering. The rationale for this research is rooted in the insufficient attention given to weathered plastics and their potential to influence pollutant dynamics.
+
+2. Method: 2.1 Selection of Plastic Types: Various plastic types commonly found in environmental settings were selected for this study. These include polyethylene, polypropylene, and polystyrene, representing a range of commonly used plastics.
+
+2.2 Weathering Conditions: Controlled weathering experiments were conducted using a weathering chamber to simulate natural environmental conditions. The duration and intensity of weathering were varied to assess their impact on plastic surfaces.
+
+2.3 Pollutant Adsorption Studies: Phthalates, known environmental pollutants, were chosen as model contaminants. Adsorption studies were conducted before and after weathering, employing standardized protocols to ensure consistency.
+
+3. Experimentals and Results: The experimentals section details the conducted experiments and presents the results. Changes in surface characteristics, such as roughness and chemical composition, are discussed. Adsorption capacities of weathered plastics compared to pristine ones are presented, highlighting variations among plastic types and weathering conditions.
+
+4. Discussion: The discussion section interprets the results, exploring the implications of changes in adsorption properties on environmental pollutant dynamics. The influence of plastic type and weathering duration on adsorption behavior is examined. Additionally, the potential toxicity of adsorbed pollutants and the broader environmental consequences are discussed.
+
+5. Conclusion: This research contributes valuable insights into the changes in adsorption properties of environmental pollutants on plastics before and after weathering. The findings underscore the significance of considering weathered plastics in environmental assessments. Future research avenues are suggested to deepen our understanding of the long-term impacts of weathered plastics on pollutant dynamics.
+
+
+
+[지도교수: 조은혜 교수](https://agrochem.jnu.ac.kr/agrochem/5246/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZiUyRmFncm9jaGVtJTJGMTA4JTJGMjEyMiUyRnZpZXcuZG8lM0Y%3D)
+
+
+- - -
+
+
+
+## 조은혜 교수님 SCI 논문 리스트
+
+[리스트 url](https://pubmed.ncbi.nlm.nih.gov/?term=Eun+Hea+Jho&sort=pubdate&size=20)
+
+
+[최신 논문1](https://pubmed.ncbi.nlm.nih.gov/37506887/)  
+
+미세플라스틱 상추 영향 논문
+
+
+[최신 논문2](https://pubmed.ncbi.nlm.nih.gov/37196794/)
+
+미세 플라스틱 조각에 노출된 지렁이
+
+
+## 실험 내용 및 데이터
+
+
+## 표 및 그래프 분석
+
+
+## 논의 내용
+
+
+## 농업/토양/정량분석 관련 자료
+
+- AQP 
+
+AQP(Algorithms for Quantitative Pedology)는 토양학에서 사용되는 알고리즘을 연구하고 개발하는 분야입니다. 이 알고리즘은 토양의 양적인 특성과 속성을 분석하고 모델링하는 데 사용됩니다. AQP는 토양과 관련된 데이터를 분석하여 토양의 특성을 이해하고 더 나은 농업 및 환경 관리 결정을 내리는 데 도움이 됩니다
+
+[AQP 패키지 모음]("https://ncss-tech.github.io/AQP/")
+
+[Agricultural Science 패키지 모음]("https://cran.r-project.org/web/views/Agriculture.html")
+
+[토양 DB 패키지]("https://ncss-tech.github.io/soilDB/")
+
+[해양 패키지]("https://github.com/paleolimbot/oceandf")
+
