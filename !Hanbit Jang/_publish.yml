@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: f08425c4-f74a-4174-89ae-37a1fc419703
+      url: 'https://waterfirst.quarto.pub/hanbit-jang'
